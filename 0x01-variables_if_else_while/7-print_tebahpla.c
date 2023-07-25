@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints the lowercase alphabet in reverse.
+ * main - main function
  *
- * Return: Always 0 (Success)
+ * Return: always 0 
  */
+
 int main(void)
 {
 	char i;

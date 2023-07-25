@@ -4,13 +4,14 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main function 
+ * main - main function
  *
  * Return: alwaya 0
  */
 int main(void)
 {
 	int n;
+	int m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
