@@ -15,7 +15,7 @@ char *argstostr(int ac, char **av)
 	char *output;
 
 	for (a = 0; a < ac; a++)
-	{	
+	{
 		for (j = 0; av[a][j] != '\0'; j++)
 			count++;
 		count++;
