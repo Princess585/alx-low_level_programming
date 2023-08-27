@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
+#include "function_pointers.h"
+
 /**
  * main - The results of simple operations to be printed
  * @argc: argument number to be supplied to the program
