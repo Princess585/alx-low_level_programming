@@ -3,6 +3,7 @@
 /**
  * print_listint - Function that prints all elements of a list
  * @h: The list linked
+ *
  * Return: The nodes number
  */
 
