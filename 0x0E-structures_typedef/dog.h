@@ -17,7 +17,6 @@ struct dog
 /**
  * dog_t - The typedef for the struct dog
  */
-
 typedef struct dog dog_t;
 
 void free_dog(dog_t *d);
