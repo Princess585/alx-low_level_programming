@@ -3,6 +3,7 @@
 /**
  * *add_dnodeint - Adds a new node at the beginning
  * @head: header to the lists
+ * @n: The element value
  * Return: the address of new element
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
@@ -14,8 +15,9 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if (new == NULL)
 		return (NULL);
 
-	new-> = n;
+	new->n = n;
 	new->prev = NULL;
+	h = *head;
 
 	if (h != NULL)
 	{
